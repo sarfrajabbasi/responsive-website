@@ -190,6 +190,12 @@ font-size:16px ;
     transform: translateY(-15px);
  }
 
+ /* features */
+
+.features-head img,.features-sub-head img{
+    width: 200px;
+    justify-self:flex-end ;
+}
 
  /* footer */
 
