@@ -3,6 +3,9 @@
 
 :root{
     --primary-color: #047aed;
+    --secondary-color:#1c3fa8;
+    --dark-color:#002240;
+    --light-color:#f4f4f4;
     --white:#fff;
     --black:#333;
     --box-shadow:0 3px 10px rgba(0,0,0,0.2) 
@@ -44,7 +47,7 @@ p{
 
 /* 100% of container */
 img{
-    width: 100%;
+ width: 100%;
 }
 
 /* navbar */
@@ -133,4 +136,36 @@ font-size:16px ;
 /* Stats */
 .stats{
     padding-top:100px ;
+}
+
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid h3{
+    font-size: 35px;
+
+}
+
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* CLI */
+.cli .grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.cli .grid > *:first-child{
+    grid-column: 1/ span 2;
+    grid-row: 1 /span 2;
+}
+
+/* cloud */
+
+.cloud .grid{
+    grid-template-columns: 4fr 3fr;
 }

@@ -32,6 +32,27 @@
     transform: scale(0.98);
 }
 
+/* backgrounds & colored buttons */
+.bg-primary,.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.bg-secondary,.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.bg-dark,.btn-dark{
+    background-color: var(--dark-color);
+    color: var(--white);
+}
+.bg-ligh,.btn-light{
+    background-color: var(--light-color);
+    color: var(--black);
+}
+
+
 .text-center{
     text-align: center;
 }
